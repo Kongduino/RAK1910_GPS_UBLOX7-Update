@@ -209,7 +209,7 @@ char* get_latitude(void) {
           latitude[ix] = argument[0];
           latitude[ix + 1] = '\0';
           flag = 1;
-          Serial.println(latitude);
+//          Serial.println(latitude);
         }
       }
       //avoid millis overflow problem
@@ -264,7 +264,7 @@ char* get_longitude(void) {
           longitude[ix] = argument[0];
           longitude[ix + 1] = '\0';
           flag = 1;
-          Serial.println(longitude);
+//          Serial.println(longitude);
         }
       }
       //avoid millis overflow problem
